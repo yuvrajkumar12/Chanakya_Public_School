@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Chanakya_Public_School/static/css/main.b68d3a32.css",
+    "main.js": "/Chanakya_Public_School/static/js/main.cf93bcca.js",
+    "static/js/977.43338f69.chunk.js": "/Chanakya_Public_School/static/js/977.43338f69.chunk.js",
+    "static/js/732.f6a3beb6.chunk.js": "/Chanakya_Public_School/static/js/732.f6a3beb6.chunk.js",
+    "static/js/453.bf3c081c.chunk.js": "/Chanakya_Public_School/static/js/453.bf3c081c.chunk.js",
+    "static/media/Monu.jpg": "/Chanakya_Public_School/static/media/Monu.706b244735bfa8c2542d.jpg",
+    "static/media/Chanakya.png": "/Chanakya_Public_School/static/media/Chanakya.1273238f875d628e5598.png",
+    "static/media/404-error-image.png": "/Chanakya_Public_School/static/media/404-error-image.eb1921de22e2d076f7de.png",
+    "static/media/Yuvraj.jpg": "/Chanakya_Public_School/static/media/Yuvraj.ea9a9dc7ee1b4986f78d.jpg",
+    "static/media/signature-png.png": "/Chanakya_Public_School/static/media/signature-png.a55129b1417283682164.png",
+    "static/media/slick.svg": "/Chanakya_Public_School/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Chanakya_Public_School/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Chanakya_Public_School/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Chanakya_Public_School/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Chanakya_Public_School/index.html",
+    "main.b68d3a32.css.map": "/Chanakya_Public_School/static/css/main.b68d3a32.css.map",
+    "main.cf93bcca.js.map": "/Chanakya_Public_School/static/js/main.cf93bcca.js.map",
+    "977.43338f69.chunk.js.map": "/Chanakya_Public_School/static/js/977.43338f69.chunk.js.map",
+    "732.f6a3beb6.chunk.js.map": "/Chanakya_Public_School/static/js/732.f6a3beb6.chunk.js.map",
+    "453.bf3c081c.chunk.js.map": "/Chanakya_Public_School/static/js/453.bf3c081c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b68d3a32.css",
+    "static/js/main.cf93bcca.js"
+  ]
+}
