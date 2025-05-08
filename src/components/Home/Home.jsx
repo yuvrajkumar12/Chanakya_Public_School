@@ -168,7 +168,7 @@ function Home() {
 
             <button className={styles.ProfileBtn}>
               <a
-                href="https://yuvrajkumar12.github.io/Portfolio_Yuvraj/"
+                href="https://www.linkedin.com/in/yuvrajkumar12/"
                 target="_blank"
               >
                 View Profile

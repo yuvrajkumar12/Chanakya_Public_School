@@ -52,7 +52,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Chanakya_Public_School/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/admission" element={<Admission />} />
         <Route path="/gallery" element={<Gallery />} />
