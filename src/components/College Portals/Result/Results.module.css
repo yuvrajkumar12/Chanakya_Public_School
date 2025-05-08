@@ -1,0 +1,562 @@
+.resultsBoard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.resultpage {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% 0% 8%;
+}
+
+.resultsList {
+  width: 40%;
+  padding-right: 20px;
+  border: 3px solid #198754;
+  background-color: #e9ecef;
+  border-radius: 10px;
+}
+
+.resultsList h2 {
+  margin: 0;
+  position: relative;
+  top: -3px;
+  background-color: #198754;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.resultsList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resultsList li {
+  cursor: pointer;
+  margin-left: 17px;
+  padding: 5px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.resultForm {
+  width: 40%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ddd;
+  background-image: url("https://media.istockphoto.com/id/1153319748/photo/magnifying-glass-with-light-bulb-icon-and-question-mark-symbol-concept-creative-idea-and.jpg?s=612x612&w=0&k=20&c=DYfFFOBIfJV7EZyJ6XsGVM9443n9-Y4E0nSvOGDRd9g=");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+.resultForm h2 {
+  color: red;
+}
+
+.resultForm label {
+  color: #000;
+  font-weight: bold;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.resultForm input {
+  margin-top: 5px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.resultForm input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+  outline: none;
+  transform: scale(1.02);
+  animation: glowing 1.5s infinite;
+}
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+}
+button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #198754;
+}
+
+button:hover {
+  background-color: #007bff;
+}
+
+.captchadiv {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 200px;
+  margin: 30px 0px 30px 180px;
+  box-sizing: border-box;
+}
+
+.captcha {
+  margin-left: 20px;
+  color: rgb(192, 32, 32);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 50%;
+  pointer-events: none;
+}
+
+.regeneratecaptcha {
+  margin-top: 15px;
+}
+
+.regeneratecaptchabtn {
+  background-color: #333;
+  font-size: 14px;
+  padding: 10px 13px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.regeneratecaptchabtn:hover {
+  background-color: #000;
+}
+
+.getresultbtn {
+  margin-top: 20px;
+  background-color: #007bff;
+}
+
+.getresultbtn:hover {
+  background-color: #0056b3;
+}
+
+.studentResult {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+.studentResult h3 {
+  color: red;
+}
+
+.studentResult p {
+  margin: 5px 0;
+}
+
+.error {
+  margin: 20px auto 50px;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+/* Styles for student result */
+
+.resultHeader {
+  display: flex;
+  justify-content: center;
+}
+.resultHeaderDetail {
+  margin-left: 20px;
+}
+.resultHeaderDetail h3 {
+  margin: 0;
+  padding: 0;
+}
+.resultHeaderLogo {
+  margin-top: -15px;
+  width: 130px;
+  height: 120px;
+}
+.studentResult {
+  padding: 20px 20px 0px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  max-width: 900px;
+  margin: 2% auto 0%;
+}
+
+.resultHeader h3 {
+  color: #007bff;
+  margin-top: 0;
+}
+.resultTable h3 {
+  color: rgb(232, 56, 56);
+}
+
+.studentResult p {
+  margin: 10px 0;
+}
+
+/* Style the table for subject-wise marks/grades */
+.subjectTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.subjectTable th,
+.subjectTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.subjectTable th {
+  background-color: orange;
+  color: #fff;
+}
+
+.subjectTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.subjectTable tr:hover {
+  background-color: #ddd;
+}
+
+/* Style the basic student details */
+.basicDetails {
+  margin: 50px 20px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.basicDetails p {
+  flex-basis: 49%;
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+}
+.basicDetails img {
+  margin-top: -10px;
+  width: 200px;
+  height: 160px;
+}
+
+.basicDetails p span {
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+}
+
+/* Style the student's photograph */
+.studentPhoto {
+  max-width: 150px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.resultFooter {
+  margin: 30px auto 20px;
+}
+
+.resultFooter p {
+  color: #000;
+  font-size: 14px;
+}
+.resultFooter p:first-of-type {
+  margin-top: -12px;
+}
+.resultFooter .signaturePara {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.resultFooter p span {
+  color: #000;
+  font-weight: 600;
+}
+
+/* Style the authority signature */
+.signaturePara {
+  margin-top: -6px !important;
+  margin-bottom: -10px !important;
+  display: flex;
+  align-items: center;
+}
+.signature {
+  max-width: 100px;
+  height: 40px !important;
+  margin-left: -5px;
+}
+.resultStatus h3 {
+  color: #000;
+}
+.resultStatus h3 span {
+  color: rgb(6, 180, 35);
+}
+
+/* Styles for the download button */
+.downloadPrintButtonDiv {
+  margin: 10px auto 50px;
+}
+.downloadButton {
+  background-color: #009688;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  margin-left: -10px;
+}
+.printButton {
+  background-color: rgb(250, 66, 66);
+  color: #fff;
+  padding: 15px 20px;
+  margin-left: 15px;
+}
+.printButton:hover {
+  background-color: rgb(247, 36, 36);
+}
+
+.downloadButton:hover {
+  background-color: #057b6f;
+}
+
+/* Add this new class for print-specific styles */
+@media print {
+  .printOnly {
+    display: block !important;
+  }
+
+  /* Hide the entire page except the studentResult */
+  .resultpage,
+  .downloadPrintButtonDiv,
+  .header,
+  .footer {
+    display: none;
+  }
+
+  /* Display only the studentResult when printing */
+  .studentResult {
+    display: block !important;
+  }
+}
+
+/* media query for mobile */
+@media screen and (max-width: 768px) {
+  .resultpage {
+    margin: 40px 8px;
+    justify-content: space-between;
+  }
+
+  .resultsList {
+    width: 50%;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .resultForm {
+    width: 50%;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .resultsList h2 {
+    width: 88%;
+    border-radius: 0;
+    font-size: 14px;
+  }
+  .resultsList ul {
+    margin: 0;
+  }
+
+  .resultsList li {
+    font-size: 12px;
+    padding: 2px;
+    margin-right: 17px;
+  }
+
+  .resultForm h2 {
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .resultForm label {
+    font-size: 12px;
+  }
+
+  .formGroup {
+    margin-bottom: 8px;
+  }
+
+  .resultForm input {
+    height: 5px;
+  }
+
+  .captchadiv {
+    justify-content: space-around;
+    margin: 30px 5px;
+  }
+
+  .captchadiv label {
+    font-size: 10px;
+  }
+
+  .captcha {
+    margin-left: 0px;
+    margin-right: 5px;
+    font-size: 12px;
+    max-width: 40%;
+  }
+
+  .regeneratecaptcha {
+    margin-top: -15px;
+  }
+
+  .regeneratecaptchabtn {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .getresultbtn {
+    margin-top: 10px;
+    padding: 8px !important;
+    margin-bottom: 10px;
+    font-size: 10px !important;
+  }
+
+  /* media query for result */
+  .studentResult {
+    padding: 10px;
+    margin: 2% 3% 0% 2%;
+    padding-bottom: 5px;
+  }
+  .resultHeader {
+    margin-right: 15px !important;
+  }
+
+  .resultHeaderLogo {
+    width: 70px;
+    height: 70px;
+    margin-top: -5px;
+  }
+  .resultHeaderDetail {
+    margin-left: 10px;
+  }
+  .resultHeaderDetail h3 {
+    font-size: 12px;
+  }
+  .basicDetails {
+    margin: 25px 0px 20px;
+    justify-content: space-evenly;
+  }
+
+  .basicDetails img {
+    width: 70px;
+    height: 85px;
+  }
+
+  .basicDetails p span {
+    font-size: 10px;
+  }
+
+  .basicDetails p {
+    font-size: 8px;
+  }
+
+  .resultTable h3 {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  /* media query for table for subject-wise marks/grades */
+  .subjectTable {
+    margin-top: 10px;
+  }
+
+  .subjectTable th,
+  .subjectTable td {
+    padding: 6px;
+    text-align: center;
+  }
+  .subjectTable td {
+    font-size: 10px;
+    padding: 6px 0px;
+  }
+
+  .subjectTable th {
+    font-size: 10px;
+  }
+
+  .resultStatus {
+    margin-top: -8px;
+    font-size: 15px;
+  }
+
+  .resultFooter {
+    margin: 10px auto 0px;
+  }
+
+  .resultFooter p {
+    font-size: 12px;
+  }
+  .resultFooter p span {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .resultFooter div {
+    margin-top: 5px;
+  }
+
+  .signaturePara {
+    margin-top: -10px !important;
+    margin-bottom: 0px !important;
+  }
+  .signature {
+    max-width: 80px;
+    max-height: 30px;
+    margin-left: -10px;
+  }
+
+  .downloadPrintButtonDiv {
+    margin: 5px auto 50px;
+  }
+  .downloadButton {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .printButton {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .studentResult .resultFooter {
+    display: block !important;
+  }
+}

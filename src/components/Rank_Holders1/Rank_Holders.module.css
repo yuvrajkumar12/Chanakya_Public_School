@@ -1,0 +1,54 @@
+.collegesContainer {
+  padding: 20px;
+  margin: 2% 10% 5%;
+}
+.collegesContainer h2 {
+  color: red;
+}
+
+.collegeTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.collegeTable th,
+.collegeTable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.collegeTable th {
+  background-color: red;
+  color: #fff;
+}
+
+.collegeTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .collegesContainer {
+    margin: 0% 0% 15% 0%;
+    padding: 10px;
+  }
+
+  .collegeTable {
+    margin-top: 10px;
+  }
+
+  .collegeTable th,
+  .collegeTable td {
+    padding: 8px;
+  }
+
+  .collegeTable th {
+    font-size: 14px;
+  }
+
+  .collegeTable td {
+    font-size: 12px;
+  }
+}
